@@ -32,8 +32,8 @@ The intent behind following these aesthetics is to make the web page more visual
 
 ### REFERENCES:
 
-http://themes.semicolonweb.com/html/canvas/services.php
-http://themes.semicolonweb.com/html/canvas/portfolio.php
+http://themes.semicolonweb.com/html/canvas/services.html
+http://themes.semicolonweb.com/html/canvas/portfolio.html
 
 ### NOTE:
 Avoid using any third-party plugins.
