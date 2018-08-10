@@ -1,0 +1,36 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+.bg-light {
+    background-color: cadetblue !important;
+    border-bottom: 2px solid black;
+}
+.header-container img {
+    height: 10vh;
+    width: 10vw;
+}
+.nav-item.active a.nav-link {
+    color: #fff !important;
+}
+.nav-item a.nav-link:hover {
+    color: rgb(46, 44, 44) !important;
+    border-bottom: 1px solid coral;
+}
+.product img {
+    max-width: 300px;
+}
+.footer-section {
+    background-color: cadetblue !important;
+    border-top: 2px solid black;
+    color: #fff !important;
+}
+.fa {
+    padding: 1.0em;
+    font-size: 1.0em;
+}
+.social-media-section a {
+    color: #fff;
+}
+.social-media-section a:hover{
+    color: blue !important;
+}
