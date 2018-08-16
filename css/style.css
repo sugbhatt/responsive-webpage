@@ -1,20 +1,95 @@
 body{
     font-family: 'Titillium Web', sans-serif;
 }
-.bg-light {
+.custom-bg-light {
     background-color: cadetblue !important;
     border-bottom: 2px solid black;
 }
-.header-container img {
+.custom-navbar-brand img {
     height: 10vh;
     width: 10vw;
 }
-.nav-item.active a.nav-link {
+.nav-item.active a.custom-nav-link {
     color: #fff !important;
 }
-.nav-item a.nav-link:hover {
-    color: rgb(46, 44, 44) !important;
+.nav-item a.custom-nav-link:hover {
+    color: rgb(201, 195, 195) !important;
     border-bottom: 1px solid coral;
+}
+/* CSS Media Queries */
+/* Extra small devices */
+@media (max-width: 575px) {
+    .custom-jumbotron h1 {
+        font-size: .8em;
+    }
+    .custom-jumbotron p {
+        font-size: 1.8em;
+    }     
+    .container h2 {
+        font-size: 1em;
+    }         
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .custom-jumbotron h1 {
+        font-size: 1.4em;
+    }
+    .custom-jumbotron p {
+        font-size: 2.4em;
+    }   
+    .container h2 {
+        font-size: 1.2em;
+    }           
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px){
+    .custom-jumbotron h1 {
+        font-size: 1.8em;
+    }
+    .custom-jumbotron p {
+        font-size: 2.8em;
+    }
+    .container h2 {
+        font-size: 1.4em;
+    }      
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px){
+    .custom-jumbotron h1 {
+        font-size: 2.2em;
+    }
+    .customjumbotron p {
+        font-size: 3.2em;
+    }  
+    .container h2 {
+        font-size: 1.6em;
+    }            
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px){
+    .custom-jumbotron h1 {
+        font-size: 2.6em;
+    }
+    .custom-jumbotron p {
+        font-size: 3.6em;
+    }   
+    .container h2 {
+        font-size: 1.8em;
+    }       
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .custom-jumbotron h1 {
+        font-size: 3em;
+    }
+    .custom-jumbotron p {
+        font-size: 4em;
+    }  
+    .container h2 {
+        font-size: 2em;
+    }  
 }
 .product img {
     max-width: 300px;
